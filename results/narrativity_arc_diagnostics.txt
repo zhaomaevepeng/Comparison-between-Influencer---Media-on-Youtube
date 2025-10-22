@@ -1,0 +1,65 @@
+ANOVA diagnostics log
+
+
+==== DV: narrativity_overall ====
+
+Levene W = 2.8180, p = 0.065186
+
+ANOVA table (Type II):
+                   sum_sq    df         F    PR(>F)
+C(category)    874.255822   2.0  0.874011  0.420906
+Residual     43512.200823  87.0       NaN       NaN
+
+Shapiro W (residuals) = 0.9895, p = 0.696899
+
+eta2 = 0.0197, partial_eta2 = 0.0197
+
+ANOVA not significant → Tukey HSD not run.
+
+
+==== DV: narrativity_staging ====
+
+Levene W = 0.1762, p = 0.838739
+
+ANOVA table (Type II):
+                    sum_sq    df         F    PR(>F)
+C(category)    2013.607184   2.0  0.768464  0.466846
+Residual     113983.110421  87.0       NaN       NaN
+
+Shapiro W (residuals) = 0.9458, p = 0.000932
+
+eta2 = 0.0174, partial_eta2 = 0.0174
+
+ANOVA not significant → Tukey HSD not run.
+
+
+==== DV: narrativity_plotprog ====
+
+Levene W = 0.9423, p = 0.393676
+
+ANOVA table (Type II):
+                   sum_sq    df         F    PR(>F)
+C(category)   2550.071316   2.0  1.360183  0.262016
+Residual     81553.836823  87.0       NaN       NaN
+
+Shapiro W (residuals) = 0.9690, p = 0.030172
+
+eta2 = 0.0303, partial_eta2 = 0.0303
+
+ANOVA not significant → Tukey HSD not run.
+
+
+==== DV: narrativity_cogtension ====
+
+Levene W = 0.7481, p = 0.476276
+
+ANOVA table (Type II):
+                    sum_sq    df         F   PR(>F)
+C(category)    6800.706856   2.0  2.221434  0.11457
+Residual     133171.102006  87.0       NaN      NaN
+
+Shapiro W (residuals) = 0.9871, p = 0.520365
+
+eta2 = 0.0486, partial_eta2 = 0.0486
+
+ANOVA not significant → Tukey HSD not run.

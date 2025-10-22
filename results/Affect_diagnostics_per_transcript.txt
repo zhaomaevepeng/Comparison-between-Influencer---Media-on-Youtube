@@ -1,0 +1,182 @@
+ANOVA diagnostics log
+
+Source file: affect_sentence_outputs/per_transcript_from_sentences.csv
+Grouping column: Influencer/Mainstream
+DVs (excluded first two columns): 14
+
+
+==== DV: neg ====
+
+Non-missing numeric observations: 100
+Levene W = 5.2550, p = 0.006810
+ANOVA table (Type II):
+               sum_sq    df         F    PR(>F)
+C(category)  0.005982   2.0  2.084859  0.129861
+Residual     0.139166  97.0       NaN       NaN
+Shapiro W (residuals) = 0.9190, p = 0.000012
+eta2 = 0.0412, partial_eta2 = 0.0412
+Warning: Levene p < .05 → variances unequal. Attempting Welch ANOVA (pingouin) if available.
+Welch ANOVA (pingouin):
+     Source  ddof1      ddof2         F     p-unc       np2
+0  category      2  43.204691  1.185768  0.315257  0.041215
+ANOVA not significant → Tukey HSD not run.
+
+==== DV: neu ====
+
+Non-missing numeric observations: 100
+Levene W = 1.3330, p = 0.268474
+ANOVA table (Type II):
+               sum_sq    df         F    PR(>F)
+C(category)  0.004768   2.0  0.820983  0.443033
+Residual     0.281685  97.0       NaN       NaN
+Shapiro W (residuals) = 0.9829, p = 0.221750
+eta2 = 0.0166, partial_eta2 = 0.0166
+ANOVA not significant → Tukey HSD not run.
+
+==== DV: pos ====
+
+Non-missing numeric observations: 100
+Levene W = 0.0930, p = 0.911243
+ANOVA table (Type II):
+               sum_sq    df         F    PR(>F)
+C(category)  0.015877   2.0  5.448889  0.005719
+Residual     0.141319  97.0       NaN       NaN
+Shapiro W (residuals) = 0.9765, p = 0.071272
+eta2 = 0.1010, partial_eta2 = 0.1010
+Tukey HSD performed; saved to results/tukey_pos.csv
+
+==== DV: compound ====
+
+Non-missing numeric observations: 100
+Levene W = 0.7205, p = 0.489086
+ANOVA table (Type II):
+                sum_sq    df         F    PR(>F)
+C(category)   3.082904   2.0  4.211968  0.017615
+Residual     35.499039  97.0       NaN       NaN
+Shapiro W (residuals) = 0.9038, p = 0.000002
+eta2 = 0.0799, partial_eta2 = 0.0799
+Tukey HSD performed; saved to results/tukey_compound.csv
+
+==== DV: emo_anger ====
+
+Non-missing numeric observations: 100
+Levene W = 2.5571, p = 0.082750
+ANOVA table (Type II):
+               sum_sq    df         F    PR(>F)
+C(category)  0.002960   2.0  0.627268  0.536201
+Residual     0.228893  97.0       NaN       NaN
+Shapiro W (residuals) = 0.9711, p = 0.026913
+eta2 = 0.0128, partial_eta2 = 0.0128
+ANOVA not significant → Tukey HSD not run.
+
+==== DV: emo_anticipation ====
+
+Non-missing numeric observations: 100
+Levene W = 1.5131, p = 0.225384
+ANOVA table (Type II):
+               sum_sq    df         F    PR(>F)
+C(category)  0.004716   2.0  0.754459  0.473004
+Residual     0.303193  97.0       NaN       NaN
+Shapiro W (residuals) = 0.9761, p = 0.065424
+eta2 = 0.0153, partial_eta2 = 0.0153
+ANOVA not significant → Tukey HSD not run.
+
+==== DV: emo_disgust ====
+
+Non-missing numeric observations: 100
+Levene W = 0.4682, p = 0.627514
+ANOVA table (Type II):
+               sum_sq    df         F    PR(>F)
+C(category)  0.001408   2.0  0.696171  0.500964
+Residual     0.098119  97.0       NaN       NaN
+Shapiro W (residuals) = 0.7251, p = 0.000000
+eta2 = 0.0142, partial_eta2 = 0.0142
+ANOVA not significant → Tukey HSD not run.
+
+==== DV: emo_fear ====
+
+Non-missing numeric observations: 100
+Levene W = 0.8418, p = 0.434075
+ANOVA table (Type II):
+               sum_sq    df         F    PR(>F)
+C(category)  0.011286   2.0  0.726394  0.486262
+Residual     0.753570  97.0       NaN       NaN
+Shapiro W (residuals) = 0.9823, p = 0.201198
+eta2 = 0.0148, partial_eta2 = 0.0148
+ANOVA not significant → Tukey HSD not run.
+
+==== DV: emo_joy ====
+
+Non-missing numeric observations: 100
+Levene W = 0.2639, p = 0.768593
+ANOVA table (Type II):
+               sum_sq    df        F    PR(>F)
+C(category)  0.009601   2.0  0.85026  0.430463
+Residual     0.547643  97.0      NaN       NaN
+Shapiro W (residuals) = 0.8672, p = 0.000000
+eta2 = 0.0172, partial_eta2 = 0.0172
+ANOVA not significant → Tukey HSD not run.
+
+==== DV: emo_sadness ====
+
+Non-missing numeric observations: 100
+Levene W = 1.4195, p = 0.246812
+ANOVA table (Type II):
+               sum_sq    df         F    PR(>F)
+C(category)  0.003823   2.0  0.607254  0.546903
+Residual     0.305297  97.0       NaN       NaN
+Shapiro W (residuals) = 0.8957, p = 0.000001
+eta2 = 0.0124, partial_eta2 = 0.0124
+ANOVA not significant → Tukey HSD not run.
+
+==== DV: emo_surprise ====
+
+Non-missing numeric observations: 100
+Levene W = 0.1609, p = 0.851616
+ANOVA table (Type II):
+               sum_sq    df       F    PR(>F)
+C(category)  0.000812   2.0  0.1183  0.888558
+Residual     0.333083  97.0     NaN       NaN
+Shapiro W (residuals) = 0.7070, p = 0.000000
+eta2 = 0.0024, partial_eta2 = 0.0024
+ANOVA not significant → Tukey HSD not run.
+
+==== DV: emo_trust ====
+
+Non-missing numeric observations: 100
+Levene W = 4.1138, p = 0.019281
+ANOVA table (Type II):
+               sum_sq    df         F    PR(>F)
+C(category)  0.019791   2.0  1.212539  0.301909
+Residual     0.791604  97.0       NaN       NaN
+Shapiro W (residuals) = 0.9756, p = 0.059621
+eta2 = 0.0244, partial_eta2 = 0.0244
+Warning: Levene p < .05 → variances unequal. Attempting Welch ANOVA (pingouin) if available.
+Welch ANOVA (pingouin):
+     Source  ddof1      ddof2        F     p-unc       np2
+0  category      2  40.264212  0.84741  0.436023  0.024391
+ANOVA not significant → Tukey HSD not run.
+
+==== DV: emo_shannon_norm ====
+
+Non-missing numeric observations: 100
+Levene W = 0.5724, p = 0.566045
+ANOVA table (Type II):
+               sum_sq    df         F    PR(>F)
+C(category)  0.125198   2.0  0.887687  0.414924
+Residual     6.840355  97.0       NaN       NaN
+Shapiro W (residuals) = 0.7872, p = 0.000000
+eta2 = 0.0180, partial_eta2 = 0.0180
+ANOVA not significant → Tukey HSD not run.
+
+==== DV: emo_gini_simpson ====
+
+Non-missing numeric observations: 100
+Levene W = 0.4279, p = 0.653105
+ANOVA table (Type II):
+               sum_sq    df         F    PR(>F)
+C(category)  0.055439   2.0  0.582398  0.560498
+Residual     4.616773  97.0       NaN       NaN
+Shapiro W (residuals) = 0.7314, p = 0.000000
+eta2 = 0.0119, partial_eta2 = 0.0119
+ANOVA not significant → Tukey HSD not run.

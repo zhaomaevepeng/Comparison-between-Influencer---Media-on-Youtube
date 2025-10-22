@@ -1,0 +1,67 @@
+ANOVA diagnostics log
+
+
+==== DV: analytic ====
+
+Levene W = 1.7543, p = 0.178535
+
+ANOVA table (Type II):
+                   sum_sq    df         F    PR(>F)
+C(category)   3924.414445   2.0  3.592859  0.031281
+Residual     52429.531410  96.0       NaN       NaN
+
+Shapiro W (residuals) = 0.9788, p = 0.111713
+
+eta2 = 0.0696, partial_eta2 = 0.0696
+
+ANOVA significant (p < .05). Running Tukey HSD and saving pairwise results.
+
+Tukey HSD saved to results/tukey_analytic.csv
+
+
+==== DV: clout ====
+
+Levene W = 1.8094, p = 0.169292
+
+ANOVA table (Type II):
+                   sum_sq    df         F    PR(>F)
+C(category)     20.003973   2.0  0.030271  0.970192
+Residual     31720.329659  96.0       NaN       NaN
+
+Shapiro W (residuals) = 0.9877, p = 0.494335
+
+eta2 = 0.0006, partial_eta2 = 0.0006
+
+ANOVA not significant -> Tukey not run.
+
+
+==== DV: authentic ====
+
+Levene W = 0.9579, p = 0.387319
+
+ANOVA table (Type II):
+                   sum_sq    df         F    PR(>F)
+C(category)     72.349981   2.0  0.075525  0.927312
+Residual     45982.209354  96.0       NaN       NaN
+
+Shapiro W (residuals) = 0.9884, p = 0.549016
+
+eta2 = 0.0016, partial_eta2 = 0.0016
+
+ANOVA not significant -> Tukey not run.
+
+
+==== DV: tone ====
+
+Levene W = 0.6185, p = 0.540889
+
+ANOVA table (Type II):
+                   sum_sq    df         F    PR(>F)
+C(category)    562.076002   2.0  0.842666  0.433721
+Residual     32017.006309  96.0       NaN       NaN
+
+Shapiro W (residuals) = 0.9148, p = 0.000008
+
+eta2 = 0.0173, partial_eta2 = 0.0173
+
+ANOVA not significant -> Tukey not run.
